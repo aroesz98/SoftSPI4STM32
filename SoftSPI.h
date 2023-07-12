@@ -68,7 +68,7 @@ class SoftSPI {
         void send(uint8_t data);
         void send16(uint16_t data);
         void sendBit(uint8_t bit, uint8_t data);
-		uint16_t transfer16(uint16_t data);
+	uint16_t transfer16(uint16_t data);
 
 };
 
